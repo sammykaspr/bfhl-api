@@ -7,10 +7,10 @@ app.post("/bfhl", (req, res) => {
   try {
     const data = req.body.data || [];
 
-    const full_name = "apoorva_saini";   // change to your lowercase name
-    const dob = "22092003";              // change to ddmmyyyy
-    const email = "your_email@vitstudent.ac.in";
-    const roll_number = "22BCE2366";
+    const full_name = "saransh_khera";   // change to your lowercase name
+    const dob = "31082004";              // change to ddmmyyyy
+    const email = "saransh.khera@vitstudent.ac.in";
+    const roll_number = "22BCE0864";
 
     let odd_numbers = [];
     let even_numbers = [];
